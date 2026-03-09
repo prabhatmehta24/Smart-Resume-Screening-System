@@ -1,0 +1,9 @@
+Step,Component,Technology,Description
+1,User Interface,HTML/CSS/JavaScript,Responsive web interface for resume upload and job description input
+2,File Upload Handler,PHP,Receives and validates uploaded resume files
+3,Text Extraction,PHP (PDFParser) / Python (PyPDF2),Extracts plain text from PDF or text files
+4,NLP Processing,Python Flask API (spaCy/NLTK),"Tokenization, stopword removal, lemmatization"
+5,Feature Extraction,Python (TF-IDF Vectorizer),Convert text to TF-IDF vectors
+6,Similarity Calculation,Python (Cosine Similarity),Calculate cosine similarity between resume and job description
+7,Database Storage,MySQL via PHP,"Store resume data, job descriptions, and matching scores"
+8,Results Display,PHP/JavaScript,Display ranked candidates with similarity scores
